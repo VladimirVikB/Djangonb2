@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{{ flatpage.title }}</title>
 </head>
 <body>
+    <a href="/about"> About</a>
+    <a href="/contact">Contacts</a>
+    <a href="/coursive">Coursive</a>
+    <hr>
 
+    {% block content %}
 
+    {% endblock content %}
 
 </body>
 </html>
